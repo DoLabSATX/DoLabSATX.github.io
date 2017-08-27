@@ -3,53 +3,13 @@ h1   {color:#008080}
 h2   {color:#008080}
 h3   {color:black}
 h4   {color:black}
-p    {color:black}
+p    {color:white}
 p2   {color:black}
 a:link {color:#8D00FB;}
 a:visited {color:#8D00FB;}
 a:hover {color:#FCA98C;}
 a:active {color:#FCA98C;}
 
-
-.flex-container-header {
-    display: -webkit-flex;
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: #008080;
-}
-
-.flex-item-header {
-    background-color: none;
-    width: 100%;
-    height: auto;
-    margin: 10px;
-    font-size: 150%;
-}
-
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: auto;
-    height: auto;
-    background-color: white;
-}
-
-.flex-item {
-    background-color: none;
-    width: 100%;
-    height: auto;
-    margin: 10px;
-}
-
-
-
-
-
-
-
-
-/*
 
 .flex-container {
     display: -webkit-flex;
@@ -70,7 +30,6 @@ a:active {color:#FCA98C;}
     -webkit-flex: 1 100%;
     flex: 1 100%;
 }
-*/
 
 @media all and (min-width: 768px) {
     .full-wide {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:2;order:2;}

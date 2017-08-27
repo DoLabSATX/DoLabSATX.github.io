@@ -56,14 +56,14 @@ a:active {color:#FCA98C;}
     border: none solid gray;
     padding: none;
 }
-
+*/
 .flex-container > * {
     padding: auto;
     margin: 1em;
     -webkit-flex: 1 100%;
     flex: 1 100%;
 }
-*/
+
 
 @media all and (min-width: 768px) {
     .full-wide {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:2;order:2;}

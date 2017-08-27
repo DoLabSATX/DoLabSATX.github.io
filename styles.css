@@ -103,8 +103,8 @@ a:active {color:#FCA98C;}
 }
 
 @media all and (min-width: 768px) {
-    .full-wide {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
-    .footer {-webkit-order:2;order:2;}
+    .full-wide {text-align:left;-webkit-flex: 0 auto;flex:0 auto;-webkit-order:0;order:0;}
+    .footer {-webkit-order:1;order:1;}
 }
 
 .panel {

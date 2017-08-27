@@ -63,11 +63,19 @@ a:active {color:#FCA98C;}
     height: auto;
     margin: 10px;
 }
-/*
-@media all and (min-width: 768px) {
-    .flex-container {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:2;order:2;}
+
+@media only screen and (max-width: 900px) {
+    .logo-main {
+        width: 55%;
+    }
 }
-*/
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 
 .panel {
     margin: auto;
@@ -78,6 +86,12 @@ a:active {color:#FCA98C;}
     text-align: center;
     padding: 15px;
     margin: 15px;
+}
+
+.logo-main {
+    width: 30%;
+    height: auto;
+    margin: 1pt;
 }
 
 .icon {

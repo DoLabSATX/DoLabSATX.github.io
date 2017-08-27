@@ -26,7 +26,7 @@ a:active {color:#FCA98C;}
     margin: 10px;
     font-size: 150%;
 }
-
+/*
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -34,16 +34,7 @@ a:active {color:#FCA98C;}
     height: auto;
     background-color: white;
 }
-
-.flex-item {
-    background-color: none;
-    width: 100%;
-    height: auto;
-    margin: 10px;
-}
-
-/*
-
+*/
 .flex-container {
     display: -webkit-flex;
     display: flex;  
@@ -52,11 +43,13 @@ a:active {color:#FCA98C;}
     text-align: center;
     margin: auto;
     width: auto;
+    height: auto;
     background: none;
+    background-color: white;
     border: none solid gray;
     padding: none;
 }
-*/
+
 .flex-container > * {
     padding: auto;
     margin: 1em;
@@ -64,11 +57,17 @@ a:active {color:#FCA98C;}
     flex: 1 100%;
 }
 
-
-@media all and (min-width: 768px) {
-    .full-wide {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:2;order:2;}
-
+.flex-item {
+    background-color: none;
+    width: 100%;
+    height: auto;
+    margin: 10px;
 }
+/*
+@media all and (min-width: 768px) {
+    .flex-container {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:2;order:2;}
+}
+*/
 
 .panel {
     margin: auto;

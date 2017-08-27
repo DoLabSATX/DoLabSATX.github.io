@@ -39,6 +39,11 @@ a:active {color:#FCA98C;}
     flex: 1 100%;
 }
 
+@media all and (min-width: 768px) {
+    .full-wide {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:2;order:2;}
+
+}
+
 .header {
 	margin: auto;
     width: auto;
@@ -100,11 +105,6 @@ a:active {color:#FCA98C;}
     background: white;
     text-align: left;
     padding: 1em;
-}
-
-@media all and (min-width: 768px) {
-    .full-wide {text-align:left;-webkit-flex: 0 auto;flex:0 auto;-webkit-order:0;order:0;}
-    .footer {-webkit-order:1;order:1;}
 }
 
 .panel {

@@ -42,13 +42,6 @@ a:active {color:#FCA98C;}
     margin: 10px;
 }
 
-
-
-
-
-
-
-
 /*
 
 .flex-container {
@@ -77,69 +70,6 @@ a:active {color:#FCA98C;}
 
 }
 
-.header {
-	margin: auto;
-    width: 100%;
-    height: auto;
-    background-color: #008080;
-    color: white;
-    text-align: left;
-    padding: 1em;
-}
-
-.footer {
-    margin: auto;
-    width: 100%;
-    height: auto;
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px; 
-}
-
-.full-wide {
-    margin: none;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    float: none;
-    width: none;
-    height: auto;
-    background: none;
-    text-align: left;
-    padding: 1em;
-}
-
-.left {
-    margin: none;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    float: none;
-    width: none;
-    height: auto;
-    background: none;
-    text-align: left;
-    padding: 1em;
-}
-
-.right {
-    margin: none;
-    margin-top: 0px;
-    margin-left: none;
-    margin-right: auto;
-    margin-bottom: auto;
-    float: none;
-    width: auto;
-    height: auto;
-    background: white;
-    text-align: left;
-    padding: 1em;
-}
-
 .panel {
     margin: auto;
     width: auto;
@@ -151,16 +81,7 @@ a:active {color:#FCA98C;}
     margin: 15px;
 }
 
-section {
-    width: auto;
-    height: auto;
-    background: white;
-    margin: auto;
-    text-align: left;
-    padding: 15px;
-}
-
 .icon {
     width: auto;
-    height: 8em;
+    height: 5em;
 }

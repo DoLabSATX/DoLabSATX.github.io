@@ -11,14 +11,6 @@ a:hover {color:#FCA98C;}
 a:active {color:#FCA98C;}
 
 
-.container {
-    margin: auto;
-    width: 80%;
-    background: none;
-    border: 1px solid gray;
-    padding: none;
-}
-
 .flex-container {
     display: -webkit-flex;
     display: flex;  
@@ -46,7 +38,7 @@ a:active {color:#FCA98C;}
 
 .header {
 	margin: auto;
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: #008080;
     color: white;
@@ -56,7 +48,7 @@ a:active {color:#FCA98C;}
 
 .footer {
     margin: auto;
-    width: auto;
+    width: 100%;
     height: auto;
     background-color:black;
     color:white;

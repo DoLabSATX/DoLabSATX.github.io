@@ -40,7 +40,7 @@ a:active {color:#FCA98C;}
     display: flex;  
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    text-align: center;
+    justify-content: center;
     margin: auto;
     width: auto;
     height: auto;

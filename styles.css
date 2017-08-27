@@ -5,10 +5,10 @@ h3   {color:black}
 h4   {color:black}
 p    {color:black}
 p2   {color:black}
-a:link {color:#8D00FB;}
-a:visited {color:#8D00FB;}
-a:hover {color:#FCA98C;}
-a:active {color:#FCA98C;}
+a:link {color:#008080;}
+a:visited {color:#008080;}
+a:hover {color:#00D5FB;}
+a:active {color:#00D5FB;}
 
 
 .flex-container-header {

@@ -60,6 +60,20 @@ a:active {color:#FCA98C;}
     padding:5px; 
 }
 
+.full-wide {
+    margin: none;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    float: none;
+    width: none;
+    height: auto;
+    background: none;
+    text-align: left;
+    padding: 1em;
+}
+
 .left {
     margin: none;
     margin-top: 0px;
@@ -89,8 +103,7 @@ a:active {color:#FCA98C;}
 }
 
 @media all and (min-width: 768px) {
-    .left {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
-    .right {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    .full-wide {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
     .footer {-webkit-order:3;order:3;}
 }
 

@@ -7,14 +7,7 @@
   <title>DoLab</title>
 
 <style> 
-  /* see style sheet css*/
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-} 
+  /* see style sheet css */
   
 </style>
 </head>
@@ -22,18 +15,32 @@
 <body>
 
 <div class="flex-container-header">
-  <div class="flex-item-header">Welcome to DoLab™ temporary landing page.</div>
+  <div class="flex-item-header">
+    <a href="index.html">
+    <img class="bannerLogo" src="./images/Branding/DoLab_Logo_Header_white.png" alt="picture"/>
+    </a>
+  </div>
+</div>
+
+<div class="menu-container">
+  <div class="menu-item" style="cursor:pointer" onclick="document.location='resources.html'">
+    Resources
+  </div>
+  <div class="menu-item" style="cursor:pointer" onclick="document.location='our-story.html'">
+    Our Story
+  </div>
+  <div class="menu-item" style="cursor:pointer" onclick="document.location='contact.html'">
+    Contact Us
+  </div>
 </div>
 
 <div class="flex-container">
   <div class="flex-item">
+    <div class="flex-item-header">Welcome to DoLab™ temporary landing page.</div>
     <center>
-    <img src="./images/Branding/DoLab_Logo.svg" alt="DoLab Logo" style="width: 50%;height: auto;margin: auto;text-align: center;">
+    <img class="logo-main" src="./images/Branding/DoLab_Logo.svg" alt="DoLab Logo">
     </center>
   </div>
-
-
-
   
   <div class="flex-item">
     
@@ -61,10 +68,10 @@
    
 </div>
 
-<div class="flex-container">
+<div class="flex-container-footer">
   <div class="flex-item">
     <center>
-    <p>DoLab™ of San Antonio, TX. | Demo space currently on the 7th Floor of Geekdom. | 110 E Houston St, San Antonio, TX 78205</p>
+    DoLab™ of San Antonio, TX. | Demo space currently on the 7th Floor of Geekdom. | 110 E Houston St, San Antonio, TX 78205
     </center>
   </div>
 </div>
